@@ -1,0 +1,179 @@
+
+.navTop li{
+	float:right;
+	text-align: right;
+	font-size:0.8em;
+	font-family:"arial black";
+}
+
+.logo{
+	text-align:center;
+	padding-left:20%;
+	font-family:"arial black";
+}
+
+.icon{
+	height:40px;
+	width:auto;
+	margin-top: 5%;
+}
+
+.navUnder{
+	text-align: center;
+}
+
+.border{
+	border-bottom:2px solid black;
+	margin:0 3.5% 1% 3.5%;
+}
+
+.navUnder li{
+	display:inline-block;
+	font-size:0.8em;
+	font-family:"arial black";
+}
+
+a{
+	color:black;
+}
+
+a:active{
+	color:blue;
+}
+
+.sliderWrapper{
+	text-align: center;
+}
+
+.slider{
+	width:80%;
+	height:auto;
+}
+
+.categoryWrapper{
+	text-align: center;
+}
+
+.headerWrapper h2{
+	border-bottom: 2px solid black;
+	padding:2%;
+	font-family:arial black;
+	font-size:1.2em;
+}
+
+.categoryWrapper ul li{
+	display:inline-block;
+	margin:2% 0;
+}
+
+.chair{
+	height: 100px;
+	width:auto;
+	margin:0 40px;
+
+}
+
+.categories{
+	font-family:arial black;
+	font-size: 0.75em;
+}
+
+.annuncio{
+	height:auto;
+	width:95%;
+}
+
+.newProductWrapper{
+	text-align:center;
+}
+
+.newProductWrapper h2{
+	border-bottom: 2px solid black;
+	padding:2%;
+	font-family:arial black;
+	font-size:1.2em;
+}
+
+/* --- NEW PRODUCTS HERE -- */
+
+.blogWrapper{
+	text-align: center;
+}
+
+.blogWrapper h2{
+	border-bottom: 2px solid black;
+	padding:2%;
+	font-family:arial black;
+	font-size:1.2em;
+}
+
+.postWrapper{
+	margin-top:2%;
+}
+
+.post{
+	height:auto;
+	width:95%;
+}
+
+.brandsWrapper{
+	text-align: center;
+}
+
+.brands{
+	margin: 2% 0;
+	padding:0;
+}
+
+.brandsWrapper h2{
+	border-bottom: 2px solid black;
+	padding:2%;
+	font-family:arial black;
+	font-size:1.2em;
+}
+
+.brands li{
+	display:inline-block;
+}
+
+li.main{
+	display:inline-block;
+}
+
+.footer{
+	font-family:arial;
+}
+
+.footer h3{
+	font-family: "arial black";
+}
+
+.newslettersWrapper{
+	background-color: #CCCCCC;
+	height:310px;
+	width:25%;
+	margin:0;
+}
+
+.mapWrapper{
+	padding-right:0;
+}
+
+#map-canvas{
+	width:100%;
+	height:310px;
+	float:right;
+}
+
+.contactWrapper{
+	background-color: #292929;
+	color:white;
+	height:310px;
+	width:25%px;
+	margin:0;
+}
+
+footer{
+	background-color: #292929;
+	color:white;
+}

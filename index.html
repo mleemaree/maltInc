@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<!--BOOTSTRAP-->
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="stylesheet.css">
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="col-xs-12 pull-right">
+				<ul class="nav navTop">
+					<li><a href="myAccount.html">MY ACCOUNT</a></li>
+					<li><a href="myWishlist.html">MY WISHLIST</a></li>
+					<li><a href="myCart.html">MY CART</a></li>
+					<li><a href="checkout.html">CHECKOUT</a></li>
+					<li><a href="logIn.html">LOG IN</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="row">
+			<div class="col-xs-10">
+				<!--<img src="logo.png">-->
+				<h1 class="logo">MALT INT</h1>
+			</div>
+			<div class="col-xs-2">
+				<a class="search" href=""><img class="icon" src="images/search.png"></a>
+				<a class="cart" href=""><img class="icon" src="images/cart.png"></a>
+			</div>
+		</div>
+		<div class="row">
+			<nav class="col-xs-12">
+				<div class="border">
+				<ul class="nav navUnder">
+					<li><a class="active" href="home.html">HOME</a></li>
+					<li><a href="cat1.html">CAT1</a></li>
+					<li><a href="cat2.html">CAT2</a></li>
+					<li><a href="categorie3.html">CATEGORIE 3</a></li>
+					<li><a href="categori4.html">CATEGORI 4</a></li>
+					<li><a href="catego5.html">CATEGO 5</a></li>
+					<li><a href="cat6.html">CAT6</a></li>
+				</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="row sliderWrapper">
+			<img class="slider"src="images/furniture.jpg">
+		</div>
+	</div>
+	<div class="container categoryWrapper">
+		<div class="row">
+			<div class="headerWrapper col-xs-12">
+				<h2>CATEGORY</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="categories"><!--CHANGES BELOW-->
+					<li>
+						<img class="chair" src="images/chair.png">
+						<p>Categorie 1</p>
+					</li>
+					<li>
+						<img class="chair" src="images/chair.png">
+						<p>Categorie 2</p>
+					</li><li>
+						<img class="chair" src="images/chair.png">
+						<p>Categorie 3</p>
+					</li><li>
+						<img class="chair" src="images/chair.png">
+						<p>Categorie 4</p>
+					</li><li>
+						<img class="chair" src="images/chair.png">
+						<p>Categorie 5</p>
+					</li><li>
+						<img class="chair" src="images/chair.png">
+						<p>Categorie 6</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<img class="annuncio" src="images/furniture.jpg">
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<img class="annuncio" src="images/furniture.jpg">
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<img class="annuncio" src="images/furniture.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="newProductWrapper col-xs-12">
+				<h2>NEW PRODUCT</h2><!--CHOSEN CATEGORY HERE -->
+			</div>
+		</div>
+		<div class="row">
+			<!-- PLACE SUB CATEGORIES HERE -->
+			<!-- PLACE PRODUCTS HERE (6 AT START)-->
+			<!-- waterfall scrolling -->
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="blogWrapper col-xs-12">
+				<h2>LATEST BLOGS</h2>
+			</div>
+		</div>
+		<div class="row postWrapper">
+			<div class="col-xs-12 col-md-3">
+				<img class="post" src="images/furniture.jpg">
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<img class="post" src="images/furniture.jpg">
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<img class="post" src="images/furniture.jpg">
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<img class="post" src="images/furniture.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="brandsWrapper col-xs-12">
+				<h2>OUR BRANDS</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="brands"><!--CHANGES BELOW-->
+					<li>
+						<img class="chair" src="images/chair.png">
+					</li>
+					<li>
+						<img class="chair" src="images/chair.png">
+					</li><li>
+						<img class="chair" src="images/chair.png">
+					</li><li>
+						<img class="chair" src="images/chair.png">
+					</li><li>
+						<img class="chair" src="images/chair.png">
+					</li><li>
+						<img class="chair" src="images/chair.png">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container footer">
+		<div class="row">
+			<div class="col-xs-12 col-sm-3 newslettersWrapper">
+				<h3>NEWSLETTERS</h3>
+				<p>Subscripe to our newsletter to receive news, updates, freestuff and new releases by email</p>
+				<input type="text" id="newsletter">Enter your e-mail</input>
+				<button type="submit">SUBSCRIBE</button>
+			</div>
+			<div class="col-xs-12 col-sm-6 mapWrapper">
+				<div id="map-canvas"></div>
+			</div>
+			<div class="col-xs-12 col-sm-3 contactWrapper">
+				<h3>CONTACT US</h3>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<ul class="contact">
+					<li><img src="homeIcon.png">1600 Pennysylvania Avenue NW, Washington, D.C.</li>
+					<li><img src="telephoneIcon.png">+04.123.456.789</li>
+					<li><img src="faxIcon.png">+04.123.456.789</li>
+					<li><img src="emailIcon.png">contacts@cemag-logistics.de</li>
+				</ul>
+			</div>
+		</div>
+		<footer class="row">
+			<div class="col-xs-12 col-md-4">
+				<!--<img src="logo.png">--><h3>MALT INC</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<hr>
+				<ul class="socialIcons">
+					<li><a href="facebookLink"><img src="facebook.png"></a></li>
+					<li><a href="twitterLink"><img src="twitter.png"></a></li>
+					<li><a href="pinterestLink"><img src="pinterest.png"></a></li>
+					<li><a href="googleLink"><img src="google.png"></a></li>
+					<li><a href="instagramLink"><img src="instagram.png"></a></li>
+					<li><a href="RSSLink"><img src="RSS.png"></a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<ul class="siteMap">
+					<li class="main">SHIPPING INFO
+						<ul class="subCats">
+							<li>New Collection</li>
+							<li>Best Sellers</li>
+							<li>Manufacturers</li>
+							<li>Suppliers</li>
+							<li>Specials</li>
+							<li>Delivery and Returns</li>
+						</ul>
+					</li>
+					<li class="main">SHIPPING INFO
+						<ul class="subCats">
+							<li>New Collection</li>
+							<li>Best Sellers</li>
+							<li>Manufacturers</li>
+							<li>Suppliers</li>
+							<li>Specials</li>
+							<li>Delivery and Returns</li>
+						</ul>
+					</li>
+					<li class="main">INFORMATION
+						<ul class="subCats">
+							<li>Recalls</li>
+							<li>My Account</li>
+							<li>Orders and Returns</li>
+							<li>Site Map</li>
+							<li>Search Terms</li>
+							<li>Advanced Search</li>
+						</ul>
+					</li>
+					<li class="main">INFOMATION
+						<ul class="subCats">
+							<li>Recalls</li>
+							<li>My Account</li>
+							<li>Orders and Returns</li>
+							<li>Site Map</li>
+							<li>Search Terms</li>
+							<li>Advanced Search</li>
+						</ul>
+					</li>
+				</ul>
+				<hr>
+				<p>Copyright Information: this site made by ColorTwister</p>
+				<ul class="paymentForms">
+					<li><img src="payPalIcon.png"></li>
+					<li><img src="discoverIcon.png"></li>
+					<li><img src="cirrusIcon.png"></li>
+					<li><img src="visaIcon.png"></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+</div>
+</body>
+</html>
+
+					
