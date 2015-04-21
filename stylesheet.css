@@ -155,6 +155,26 @@ li.main{
 	margin:0;
 }
 
+#newsletter{
+	margin:5% 0;
+	border:none;
+	width:90%;
+	height:10%;
+}
+
+.submitButton{
+	clear:both;
+	background-color: black;
+	color:white;
+	display:block;
+	border:none;
+	width:50%;
+	height:10%;
+	margin:5% 0;
+}
+
+
+
 .mapWrapper{
 	padding-right:0;
 }
@@ -173,7 +193,43 @@ li.main{
 	margin:0;
 }
 
+.contactWrapper ul{
+	list-style: none;
+	position:relative;
+	right:10%;
+}
+
+.contactWrapper ul li{
+	padding:0.25%;
+}
+
+.contactIcon{
+	height:25px;
+	width:auto;
+	margin: 5px;
+}
+
 footer{
 	background-color: #292929;
 	color:white;
+}
+
+.siteMap{
+	margin: 5% 0;
+}
+
+.paymentForms{
+	margin: 0 5%;
+	clear:none;
+	position:relative;
+	top:-27px;
+	right:20%;
+}
+.payIcon{
+	display:inline-block;
+	float:right;
+}
+
+.socialIcon{
+	display:inline-block;
 }
